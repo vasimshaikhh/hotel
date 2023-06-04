@@ -1,0 +1,113 @@
+/* Myprofile */
+
+.Myprofile .pimg{
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+.Myprofile .nameimg h1{
+    text-align: center;
+}
+.Myprofile{
+    background-image: url("../../../images/back-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    justify-content: center;
+    color: white;
+}
+.Myprofile .table{
+    color: white;
+}
+.Myprofile .pdetail button{
+    color: white;
+}
+.Myprofile .form{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px 0px 15px 0px;
+    height: 100%;
+    border-radius: 5px;
+}
+.Myprofile .form h1{
+    margin: 5px;
+}
+.Myprofile .flname .row{
+    padding: 0;
+}
+.Myprofile .input.col-md {
+    padding-right: 2px;
+    padding-left: 0;
+    margin: 0px;
+}
+
+.pdetail button{
+    font-weight: 700;
+}
+/* MyBooking */
+
+.MyBooking .pimg{
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+.MyBooking{
+    background-image: url("../../../images/back-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    color: white;
+}
+.MyBooking .table{
+    color: white;
+}
+
+/* EditProfile */
+
+.editprofile{
+    background-image: url("../../../images/back-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: Cover;
+    height: 100%;
+    justify-content: center;
+    color: white;
+}
+.editprofile .form{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px 0px 15px 0px;
+    height: 100%;
+    border-radius: 5px;
+}
+.editprofile .form h1{
+    margin: 5px;
+}
+.editprofile .flname .row{
+    padding: 0;
+}
+.editprofile .input.col-md {
+    padding-right: 2px;
+    padding-left: 0;
+    margin: 0px;
+}
+
+.editprofile button.Edit{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #2cd997;
+    padding: 3px;
+    border: 0px;
+    border-radius: 7px;
+}
+.editprofile .pimg{
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }

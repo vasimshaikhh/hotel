@@ -1,0 +1,76 @@
+/* signup */
+
+.signup{
+    background-image: url("../../../images/back-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: Cover;
+    height: 100%;
+    justify-content: center;
+    color: white;
+}
+.signup .form{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px 0px 15px 0px;
+    height: 100%;
+    border-radius: 5px;
+}
+.signup .form h1{
+    margin: 5px;
+}
+.signup .flname .row{
+    padding: 0;
+}
+.signup .input.col-md {
+    padding-right: 2px;
+    padding-left: 0;
+    margin: 0px;
+}
+
+.signup button.createac{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #2cd997;
+    padding: 3px;
+    border: 0px;
+    border-radius: 7px;
+}
+
+
+
+/* signin */
+
+.signin{
+    background-image: url("../../../images/back-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    color: white;
+}
+.signin .form{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px 0px 15px 0px;
+    height: 100%;
+    border-radius: 5px;
+}
+.signin .form h1{
+    margin: 5px;
+    text-align: center;
+}
+.signin .form h3{
+    text-align: center;
+}
+.signin button.login{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #2cd997;
+    padding: 3px;
+    border: 0px;
+    border-radius: 7px;
+}

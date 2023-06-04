@@ -1,0 +1,17 @@
+.collection img {
+    filter: grayscale(100%);
+    transition: 0.5s;
+  }
+.collection img:hover {
+    filter: grayscale(0);
+  }
+  @media screen and (max-width: 768px) {
+    .collection img {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .collection img {
+      width: 100%;
+    }
+  }

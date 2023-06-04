@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    font-family: "Poppins", sans-serif;
+}
+.thumbs-wrapper.axis-vertical {
+    display: none;
+}
+.carouselimg img{
+    width: 100%;
+    height: 650px;
+}
+.css-1m9128y {
+    display: none;
+}
+.css-ohwg9z {
+    position: sticky !important;
+}
+
+  /*--------form-----------*/
+
+.slide-form h2 {
+    margin-top: 30px;
+    color: black;
+  }
+  .slide-form span{
+    color: black;
+    padding-bottom: 20px;
+  }
+  .slide-form {
+    background: rgb(165,249,255);
+    background: radial-gradient(circle, rgba(165,249,255,0.4) 0%, rgba(125,255,206,0.4) 100%);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+  .slide-form .submit {
+    background: #31b675;
+    color: white;
+    border: transparent;
+  }
+  form{
+    padding-bottom: 25px
+  }
+  form input{
+    padding: 6px;
+    margin: 5px;
+  }
+  .row{
+    margin: 0 !important;
+    width: 100%;
+    padding: 0 !important;
+  }
+  input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+  }
+
+@media screen and (max-width: 768px){
+    .Carousel {
+      height: 65vh;
+    }
+    .Carousel img {
+      height: 65vh;
+      width: 75%;
+    }
+  }

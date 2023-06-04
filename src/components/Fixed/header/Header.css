@@ -1,0 +1,55 @@
+.logo img{
+    width: 78%;
+}
+a.logo.navbar-brand {
+    margin: 0;
+    width: 13%;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link {
+   color: black !important;
+}
+img.profile{
+    width: 40px;
+    border: 0px;
+}
+.navbar{
+    background: rgb(247,254,255);
+    background: linear-gradient(90deg, rgba(247,254,255,1) 0%, rgba(228,235,239,1) 71%, rgba(215,221,227,1) 100%);
+}
+svg{
+    margin-top: -3px;
+}
+button.btn.btn-white {
+    padding: 0;
+}
+.btn:hover {
+    border-color: none !important;
+}
+.afterlogin{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    a.logo.navbar-brand {
+        width: 40%;
+    }
+    .logo img {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 992px){
+    a.logo.navbar-brand {
+        width: 30%;
+    }
+    .logo img {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1399){
+    .logo img {
+        width: 100%;
+    }
+}
